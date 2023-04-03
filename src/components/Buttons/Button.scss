@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 12px;
+  &.save {
+    background-color: rgb(29, 107, 29);
+  }
+  &.delete {
+    background-color: rgb(127, 39, 39);
+  }
+  &.edit{
+    background-color: rgb(63, 132, 132);
+  }
+}

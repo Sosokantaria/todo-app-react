@@ -1,0 +1,26 @@
+.todo-form {
+  color: #ffffff;
+  background-color: rgb(31, 20, 20);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  & .input-div {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    & .mainInput {
+      border-radius: 12px;
+      height: 5vh;
+      width: 100%;
+    }
+    & .submit {
+      background-color: rgb(29, 107, 29);
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 12px;
+    }
+  }
+}

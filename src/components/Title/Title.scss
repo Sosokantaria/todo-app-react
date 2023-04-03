@@ -1,0 +1,23 @@
+.title{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    padding-left:20px;
+    display: flex;
+    align-items: center;
+}
+.line-through{
+    text-decoration: line-through;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #020202;
+    padding-left:20px;
+}
+.editInput{
+    height: 4vh;
+    border-radius: 12px;
+    padding-left: 20px;
+    width: 100%;
+}
